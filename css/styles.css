@@ -1,0 +1,34 @@
+<!external css with 8 styles>
+h3{
+color:blue;
+}
+body{
+border-style: dashed;
+border-color: white;
+border-width: 3px;
+}
+hr{
+  background-color:darkblue;
+  boder-style: dashed;
+  width: 80%;
+  height: 5px;
+}
+.social{ <!class selector styled>
+  border-style: outset;
+border-color: Darkblue;
+  border-width: thin;
+}
+.proffesional{
+  font-size: 20;
+  color: white;
+}
+.hobbies{
+  font-size: 20;
+}
+.current{
+  font-size: 20;
+  color: white;
+}
+#title{<!just for class>
+  color: red;
+}
