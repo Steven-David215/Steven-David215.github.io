@@ -1,4 +1,3 @@
-<!external css with 8 styles>
 h3{
 color:blue;
 }
@@ -29,6 +28,6 @@ border-color: Darkblue;
   font-size: 20;
   color: white;
 }
-#title{<!just for class>
+#title{
   color: red;
 }
