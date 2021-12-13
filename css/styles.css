@@ -8,7 +8,7 @@ body{
   border-style: dashed;
   background-color: darkslateblue;
   border-color: darkviolet;
-  border-width: 3px;
+  border-width: 2px;
   color: black;
 }
 .TopNav{
@@ -80,4 +80,14 @@ img{
 p{
  font-size: 20px;
  color: white;
+}
+.PixelArt{
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+}
+.UnityGames{
+  font-size: 20px;
+  color: white;
+  text-decoration: underline; 
 }
