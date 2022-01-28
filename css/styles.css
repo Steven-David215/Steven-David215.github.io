@@ -6,7 +6,7 @@ h3{
 }
 body{
   border-style: dashed;
-  background-color: darkslateblue;
+  background-color: rgb(0, 110, 255);
   border-color: darkviolet;
   border-width: 2px;
   color: black;
@@ -14,7 +14,7 @@ body{
 .TopNav{
   text-align: center;
   padding: 10px 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 hr{
   box-align: center;
@@ -30,6 +30,11 @@ hr{
   margin: 5px;
   height: 420px;
   width: 420px;
+}
+image{
+  border: 3px solid #ccc;
+  max-width: fit-content;
+  height:100%;
 }
 img{
   border: 3px solid #ccc;
@@ -91,3 +96,15 @@ p{
   color: white;
   text-decoration: underline; 
 }
+.Capstone{
+  font-size: 24px;
+  color:white;
+  text-decoration: underline; 
+}
+.Tech{
+  font-size: 24px;
+  color:white;
+  text-decoration: underline; 
+}
+
+#more {display: none;}
