@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <meta description="personal website of Steven David">
+    <title>Steven-David</title>
+  </head>
+
+<div class="TopNav">
+  <a class="active" href="index.html">Home</a>
+  &emsp;
+  &emsp;
+  <a href="Blog.html">Blog</a>   
+  &emsp;
+  &emsp;
+  <a href="projects.html">Projects</a>
+</div>
+<nav class="sidenav" style="width: 20%">
+  <br>
+  <a href="Jan-27Blog.html">Jan-27</a><br>
+  <a href="Feb-03Blog.html">Feb-03</a><br>
+  <a href="Feb-10Blog.html">Feb-10</a><br>
+  <a href="Feb-17Blog.html">Feb-17</a><br>
+  <a href="Feb-24Blog.html">Feb-24</a><br>
+</nav>
+
+<div style="margin: left 20%">
+<hr>
+
+<center><h3> My Blog </h3></center>
+<div class="Capstone"> 
+  Team Bulbasaur Project Blogs: </div>
+  <p>&emsp;&emsp;Jan-27,2022: First entry for the final semesters Capstone project with SLC's Game-Programming course. My group, going by Team Bulbasaur, consists of;<span id="dots">...</span> <span id="more">
+    myself, Valeria Rincon, Mark Silva, Troy Dexter, and Sean Legroulx. So far for our project we have began establishing team relations, regular meetings, and work distribution preferences. I have opted to focus on Level Design as it's a component to game development that fascinates me and have been offering my opinions along with Sean directly to Val, who has taken the lead for the game's art and has been doing a great job bringing ideas to images thanks to her artistic skills.
+    Mark has elected to focus on the User Interface and menu systems we will use in game and has proposed the idea of having social media links, which while ambitious is something I hope we try. Sean, Troy, and I have began planning the mini games that will be a part of the challenges players will overcome in our game. As a team we have been working through our design document, shaping our ideas into a game and I look forward to updating this blog as this project comes together.  
+  <br><br><image src="images/MSteve.png" width = "768px"> <br>Val testing different character designs
+  <br><br><image src="images/MSteve4Sides.gif" width = "335px"> <br> Val testing the walk animation from each side
+  <br><br><image src="images/Main_menu.png" width = "720px"> <br> Marks main menu concept draft
+  </span><button onclick="ReadMoreFunction()" id="Button">Read more</button></p> 
+
+
+
+  <script>
+    function ReadMoreFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("Button");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+</div>
+</html>
