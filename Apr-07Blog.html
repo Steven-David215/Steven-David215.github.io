@@ -41,20 +41,36 @@
   <div style="margin: left 20%">
   
   
-    <p>&emsp;&emsp; April-07,2022: Tenth entry for Graey's Crusade, itch.io talk, fire fighter crammage, teams a blessing, maybe some code snippets from github?<span id="dots">...</span> <span id="more">
-      Tottally filler words but typical layout planning. <br>
-      
+    <p>&emsp;&emsp; April-07,2022: Tenth entry for Graey's Crusade, this was a crazy weekend of collaboration and crunching to bring together the important details for the game to ready for the <span id="dots">...</span> <span id="more">
+      <a href="https://xpgamesummit.com/levelupshowcase/">LevelUpShowcase</a> submission deadline. I had started Friday by sharing where I was at with stubbing everything and sharing the foundation of the Soaking Spirit's Fire Fighter game. <br>
+      I'm proud of how the communication and development of this code base and completion of this mini game went over the weekend, from working base concept to involved and challenging game with small space for refinement over the next few weeks, once I catch up on some neglected work.      
     <br>
-
+    To start, highlighting the simplistic UI Manager for the mini game and the commenting practices, I have a sense of humor while keeping things clear. The waitforinstructions logic is borrowed from Mark and the Timer logic was found by Sean both previously implemented for other minigames.
     <BR CLEAR="left">
-      <image src="images/FFWaterBall.gif" width = "240px" ALIGN="left" HSPACE="20" VSPACE="20"></image>
+      <image src="images/BlogUIComments.png" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
       
-      <image src="images/WindowFire.gif" width = "240px" ALIGN="left" HSPACE="20" VSPACE="20"></image>
-      
-      <video width="480" controls > <source src="images/FireOnBuilding.mp4" type="video/mp4"><autoplay></video>
-
+      <image src="images/BlogUIMainCode.png" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
   <br>
-  Team was cramming over the weekend to bring together Soaking Spirits Fire Fighter, team being those specific people I mention every week but one guy doing the same task still.
+  Next to highlight will be the main game manager where I make small chuckle about yandere simulator esque if, else if  code loops but, I am proud of how it works and the collaboration that went into it. I had started a base boiler maker spawning logic we had previously used and were introduced to in a tutorial previously in game enginges.
+  I had implemented the logic for speeding up the spawn time after a certain amount of time passes and based on user feedback I'll be using similar logic soon to make it so fires stop spawning after a certain amount of time so players can clear the fires before the game ends and they stop growing, for game immersion and event connect to main hubworld.
+  <BR CLEAR="left">
+    <image src="images/BlogGMmainTsundereLoop.png" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+    
+    <image src="images/BlogGMTroySpawningLogic.png" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+<br>
+
+Then the Fire Class which was a fun creation with Troy handling the particle effects and adjusting my scaling logic into a function then otherwise, my main logic was timer based difficulty and danger progression. I find with tuning this game will be really fun and makes for a great first mini game encounter in our game.
+<BR CLEAR="left">
+  <image src="images/BlogFireTroyParticlenFireLogic.png" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+  
+  <image src="images/BlogFireFunctions1.png" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+
+  <image src="images/BlogFireFunctions2.png" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+<br>
+
+
+
+  Team was cramming over the weekend to bring together Soaking Spirits Fire Fighter, overall polishing and,  once we got to making our itch build on Monday we were cramming with odd bugs that thanks to James' help we all learned about the script execution order setting in Unity.
 
       <br>
       
