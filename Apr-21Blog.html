@@ -44,15 +44,25 @@
   
   
     <p>&emsp;&emsp; April-21,2022: Twelfth entry for Graey's Crusade, this will be the last class driven blog post leading into the games Google Play launch, and<span id="dots">...</span> <span id="more">
-      I will be adding a project reflection sometime mid May after I take some time off then revamp my site, especially in the blog and project sections.
+      I will be adding a project reflection sometime mid May after I take some time off, then revamp my site, especially in the blog and project sections.
     <br>
-    <BR CLEAR="left">
-      <image src="images/PlaceHolderPlants.jpg" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+    <BR CLEAR="center">
+      <image src="images/Apr-21FFSpriteUpdate.png" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
   <br>
-  This is currently in development so, enjoy placeholder plants for a few hours in anticipation of me talking about the google developer account setup, getting FireFighter pounded out with some help and <br>
-  the final fine tunings leading into google launch, plus we'll be updating our Itch build soon so people can enjoy a more lovely experience soon.
-      <br>
-      
+  Credit where it's due, I get to thank Val for handling the fire spawns not scaling properly with the background allowing me to focus on the logic we wanted to add to the game. 
+  Not pictured are quick implementations so the fires stop scaling and spawning in the final 5 seconds and the game now waits once the timer is up for players to clear all remaining fires for continuity reasons, making the games dialog and progression make more sense.
+  <br>
+  Pictured below is the solution for how I switch between the fire level colors going up to 1&2 and the down logic is the same for 0&1, assigned in the heirarchy to sprite sheets that Val had edited out in minutes and animators that Unity made for me extremely easily by dragging all the sprites from the spritesheet into the scene.
+  While this isn't news to anyone in my class, I have had an issue with VS extension resharper not being happy on my laptop so, I'm going to add my praise to Mark and Troy here for always being available to run my blind attempts at what the correct order is for variables, despite what I think, you don't need .gameObject added everytime.
+    <br>
+      <BR CLEAR="center">
+        <image src="images/Apr21FireParams.png" width = "480px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+        <image src="images/Apr21FireLogic.png" width = "480px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+    <br>
+    As a final little bit of fun things done in the last week, with feedback from the class I've upped the Fire Fighter difficulty slightly, we've enjoyed more git conflicts and team brainstorms in the last 4 days then we had the whole project, and our current Google Play launch wait is ID verification for our developer account fee. <br>
+    My method of difficulty increasing was to reduce the time between fire level ups and the time it takes to break a window and adjusting the spawn rate slightly, the game is still slightly easier than what Troy had gotten to in playtests but, it's very fun and an appropriate level of challenging. <br>
+    Our git issues have been mostly on the hubworld now but, we have had prefabs disappear from other scenes, some that weren't touched and our mentors said the possibility of a meta file conflict could cause prefabs to break so, learning experiences, make backups and work together to avoid completely breaking things. <br>
+    And I, with the American banking and address, volunteered to cover the Google Play fee handling (team has offered to split the fee) and I learned that Google doesn't accept Tribal ID for verification, bit of a shame being it's what I use for my bank, so we wait to see if my Ontario license and American payment information doesn't confuse them, at least both say Akwesasne so, maybe they'll get it :-D <br>
     </span>
   <button onclick="ReadMoreFunction()" id="Button">Read more</button></p>  
 
