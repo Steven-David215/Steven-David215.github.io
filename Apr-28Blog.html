@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <meta description="personal website of Steven David">
+    <title>Steven-David</title>
+  </head>
+
+<div class="TopNav">
+  <a class="active" href="index.html">Home</a>
+  &emsp;
+  &emsp;
+  <a href="Blog.html">Blog</a>   
+  &emsp;
+  &emsp;
+  <a href="projects.html">Projects</a>
+</div>
+
+<hr>
+
+<center><h3> My Blog </h3></center>
+<div class="Capstone"> 
+  Team Bulbasaur Project Blogs: </div>
+
+  <nav class="sidenav" style="width: 20%">
+    <br>
+    <a href="Jan-27Blog.html">Jan-27</a><br>
+    <a href="Feb-03Blog.html">Feb-03</a><br>
+    <a href="Feb-10Blog.html">Feb-10</a><br>
+    <a href="Feb-17Blog.html">Feb-17</a><br>
+    <a href="Feb-24Blog.html">Feb-24</a><br>
+    <a href="Mar-03Blog.html">Mar-03</a><br>
+    <a href="Mar-17Blog.html">Mar-17</a><br>
+    <a href="Mar-24Blog.html">Mar-24</a><br>
+    <a href="Mar-31Blog.html">Mar-31</a><br>
+    <a href="Apr-07Blog.html">Apr-07</a><br>
+    <a href="Apr-14Blog.html">Apr-14</a><br>
+    <a href="Apr-21Blog.html">Apr-21</a><br>
+    <a href="Apr-28Blog.html">Apr-28</a><br>
+  </nav>
+  
+  <div style="margin: left 20%">
+  
+  
+    <p>&emsp;&emsp; April-28,2022: Thirteenth entry for Graey's Crusade, this will be the last class driven blog post of the project<span id="dots">...</span> <span id="more">
+      It's been a lot of fun and this past week has been bug fixes and fine tuning that the team distributed well. Among the little bugs I had found along the way was in the final battle where in if you the player had your head against a collider the projectile would spawn and collide immediately because of how high they were spawning.
+    <br>
+    <BR CLEAR="center">
+      <image src="images/Apr-28FireDifficultySolution.png" width = "720px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+  <br>
+  Pictured above is the combination solution of after I increased the difficulty the game became extremely difficult for mouse players so now, if the game is playing on Android the max potential spawn rate to start is just challenging enough for mobile and the starting rate for pc is slightly slower but still engaging and now feasible.
+  <br>
+  Now, below I'm going to highlight my stress since the last blog post in Google setup and interactions. Due to these struggles we actually wound up making another gmail and developer account because I'm waiting on specialist help.
+    <br>
+      <BR CLEAR="center">
+        <image src="images/Apr-29Google1.png" width = "480px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+        <image src="images/Apr29-Google2.png" width = "480px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+        <image src="images/Apr-29Google3.png" width = "480px" ALIGN="center" HSPACE="20" VSPACE="20"></image>
+    <br>
+    So for future, not James readers, we had a debacle with Google where I, in my infinite wisdom, chose to pay our developer fee with my American bank, apparently meaning that ID verification for the account would have to match the payment country. Now, you might think, you bank there you must have ID right? <br>
+    Of course I do! But, that doesn't mean Gooogle recognizes it! Part of the unique situation of living as a mohawk of Akwesasne, having identifications and documents in Canada and the U.S., sadly Google doesn't recognize Federally issued Tribal ID cards and I even went to TSA Reddit to find a solution. So, as my Tribal ID is my only American ID, what I use with my bank, and Google isn't accepting it, I've begun the cancel and refund process which involves a specialist to help sort my identity for the refund. <br>
+    I can add humorously now, at 10pm the day of while 4/5 team members are in a meeting trying to send a first test to Google play on a new account, this has been a really good group to work with and I'm extremely satisfied with how we all worked together.
+    </span>
+  <button onclick="ReadMoreFunction()" id="Button">Read more</button></p>  
+
+  <script>
+    function ReadMoreFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("Button");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+</div>
+</html>
